@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+ margin: 0;   
+color: black;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
+.navbar-nav {
+    --bs-navbar-color: rgb(0 0 0);
+   
+}
+    nav{
+      --bs-light-rgb: 255, 255, 255;
+    }
+
+#top-elements{
+    color: black;
+    text-align: center;
+    padding: 5em;
+}
+.carousel-inner{
+display: flex;
+align-items: center;
+background-color: #000000;
+}
+
+
+
+
+
+.conteiner-top{
+    display: flex;
+    padding: 10em;
+}
+
+.conteiner{
+
+    display: flex;
+   text-align: center;
+   justify-content: center;
+    align-items: center;
+    height: 62.5em;
+ 
+ 
+    }
+    
+    .conteiner > div{
+ 
+ text-align: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+
+ 
+  
+}
+
+#conteiner__top{
+    width: auto;
+    padding: 8vh;
+    height: 15vh;
+     text-align: center;
+    }
+    .grid-container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "redes logo-slogan MAPA";
+          text-align: center;
+      }
+      
+      .MAPA { grid-area: MAPA; 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    }
+      
+      .logo-slogan { grid-area: logo-slogan;
+    position: relative;
+    
+    font-size: 1vh;
+    display: flex;
+    align-items: center;
+    
+    }
+      
+      .redes { grid-area: redes;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    }
+      .grid-container img{
+         
+          display: inline-flex;
+          align-items: baseline;
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          width: 10vh;
+          
+      }
+     
+      
+      button{
+        
+        /* padding: 20px; */
+       border: 1px solid black;
+     box-shadow:  0.125em 0.125em 0.625em ;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    button:hover{
+        background-color: rgba(238, 192, 192, 0.753);
+    }
+   
+   button.btn.btn-outline-success{
+    --bs-btn-color: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-bg: #000000;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.products-men{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+}
+
+
+
+
+
+
+  @media (max-width: 720px) {
+    
+    .conteiner {
+      display: flex;
+      text-align: center;
+      justify-content: flex-start;
+      align-items: center;
+      height: 168.5em;
+      flex-direction: column;
+      align-content: space-around;
+  }
+
+
+}
